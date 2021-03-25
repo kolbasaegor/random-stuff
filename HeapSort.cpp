@@ -2,8 +2,8 @@ template <typename T>
 class MinHeap{
 public:
     MinHeap(){
-        capacity = 0;
-        data = new T[0];
+        capacity = 1;
+        data = new T[capacity];
         Size = 0;
     }
 
